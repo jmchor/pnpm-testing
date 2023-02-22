@@ -1,0 +1,20 @@
+{
+	"name": "pnpm-testing",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsup src/*.ts",
+		"start": "pnpm build"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"tsup": "^6.6.3"
+	},
+	"devDependencies": {
+		"eslint-config-jmchor": "^1.0.1"
+	}
+}

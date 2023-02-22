@@ -1,0 +1,9 @@
+{
+	"extends": "jmchor",
+
+	"parserOptions": {
+		"project": ["./tsconfig.json"], // Specify it only for TypeScript files
+		"ecmaVersion": "latest",
+		"sourceType": "module"
+	}
+}
